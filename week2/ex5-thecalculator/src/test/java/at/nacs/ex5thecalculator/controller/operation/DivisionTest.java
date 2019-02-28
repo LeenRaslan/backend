@@ -1,6 +1,7 @@
 package at.nacs.ex5thecalculator.controller.operation;
 
-import at.nacs.ex5thecalculator.model.Expression;
+import at.nacs.ex5thecalculator.Expression;
+import at.nacs.ex5thecalculator.Operation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

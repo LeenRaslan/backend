@@ -10,16 +10,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-class MultiplicationTest {
-
+public class AdditionTest {
     @Autowired
-    Operation multiplication;
+    Operation addition;
 
     @ParameterizedTest
     @CsvSource({
-            "false, +",
+            "true, +",
             "false, -",
-            "true, *",
+            "false, *",
             "false, /",
     })
     void matches(boolean expected, String symbol) {
@@ -27,7 +26,7 @@ class MultiplicationTest {
                 .symbol(symbol)
                 .build();
 
-        boolean result = multiplication.matches(expression);
+        boolean result = addition.matches(expression);
 
         assertEquals(expected, result);
     }
@@ -35,9 +34,9 @@ class MultiplicationTest {
     @ParameterizedTest
     @CsvSource({
             "0, 0, 0",
-            "0, 0, 1",
-            "0, 1, 0",
-            "6, 2, 3",
+            "1, 0, 1",
+            "1, 1, 0",
+            "5, 2, 3",
     })
     void apply(double expected, double number1, double number2) {
         Expression expression = Expression.builder()
@@ -45,7 +44,7 @@ class MultiplicationTest {
                 .number2(number2)
                 .build();
 
-        double result = multiplication.apply(expression);
+        double result = addition.apply(expression);
 
         assertEquals(expected, result);
     }
