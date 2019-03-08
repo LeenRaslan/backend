@@ -1,0 +1,28 @@
+word:
+  read: fantastic
+
+number:
+  read: 369
+
+weekly:
+  days: Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+
+book:
+  name:
+    3: Harry Potter
+    2: The Foundation
+    4: The Lord of the Rings
+
+sauna:
+  facilities:
+    availableSeats: 10
+    temperature: 30.7
+
+ballerina:
+  dancer:
+    - name: Tima
+      performanceQuality: 4
+    - name: Talia
+      performanceQuality: 2
+    - name: Tony
+      performanceQuality: 5

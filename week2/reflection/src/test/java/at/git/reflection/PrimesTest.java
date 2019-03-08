@@ -1,5 +1,6 @@
 package at.git.reflection;
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,12 @@ class PrimesTest {
         boolean actual = primes.isPrime(candidate, divisor);
         assertEquals(expected,actual);
 
+
+    }
+
+    @Test
+    void getPrime1() {
+        assertFalse(primes.getPrime(18));
 
     }
 }
