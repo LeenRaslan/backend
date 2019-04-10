@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48da986a-b87f-4da7-86c1-19792a9606f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc1-part2/src/main/java/at/git/exc2/MarcoEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc1-part2/src/main/java/at/git/exc2/MarcoPolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc1-part2/src/main/java/at/git/exc2/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc1/src/test/java/at/git/web/PoloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc2/src/main/java/at/git/marathon/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc2/src/main/java/at/git/marathon/RunnersEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week4/exercises/exc2/src/main/java/at/git/marathon/WinnerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/cup/src/main/java/at/nacs/cup/CoinEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/cup/src/main/java/at/nacs/cup/Cup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/trickster/src/main/java/at/nacs/trickster/ChooseEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/trickster/src/main/java/at/nacs/trickster/PlayEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/trickster/src/main/java/at/nacs/trickster/Trickster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/exercises/The Three Cup Shuffle/trickster/src/main/java/at/nacs/trickster/TricksterEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-admission/src/main/java/at/nacs/drhouseadmission/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-admission/src/main/java/at/nacs/drhouseadmission/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-admission/src/main/java/at/nacs/drhouseadmission/PatientsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-admission/src/main/java/at/nacs/drhouseadmission/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-admission/src/test/java/at/nacs/drhouseadmission/PatientsEndpointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/PatientsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/src/main/java/at/git/reflection5/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week5/reflection/src/main/java/at/git/reflection5/PatientsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-beds/src/main/java/at/nacs/drhousebeds/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-beds/src/main/java/at/nacs/drhousebeds/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-beds/src/main/java/at/nacs/drhousebeds/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-beds/src/main/java/at/nacs/drhousebeds/PatientsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-beds/src/main/java/at/nacs/drhousebeds/TreatmentsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/Apothecary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/MedicineConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/PatientsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../week6/reflection/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/PatientsEndpointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../week3/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/phonebook/ContactsEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/phonebook/Contact.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554208750018" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PhoneBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="phone-book" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.phonebook.PhoneBookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48da986a-b87f-4da7-86c1-19792a9606f6" name="Default Changelist" comment="" />
+      <created>1554208101038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554208101038</updated>
+      <workItem from="1554208106714" duration="897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="897000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/phonebook/domain/Contact.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/phonebook/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/phonebook/ContactsEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/phonebook/ContactManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/phonebook/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

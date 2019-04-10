@@ -1,0 +1,14 @@
+server:
+  port: 9003
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/patients
+
+dataset:
+  treatments:
+    Cancer: surgery
+    Husam: vodka
+    Headache: sleep
+    BrokenLeg: idk
