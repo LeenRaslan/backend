@@ -16,7 +16,8 @@ public class Verifier {
         if(!verifiers.get(0).checkVerification(password)){
             return false;
         }
-        return countConditions(password)&&isLowercase(password);
+        isLowercase(password);
+        return countConditions(password);
     }
 
     private boolean countConditions(String password) {

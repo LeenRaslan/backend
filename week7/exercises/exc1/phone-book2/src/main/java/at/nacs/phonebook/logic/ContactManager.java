@@ -1,7 +1,7 @@
 package at.nacs.phonebook.logic;
 
-import at.nacs.phonebook.persistance.domain.Contact;
 import at.nacs.phonebook.persistance.ContactRepository;
+import at.nacs.phonebook.persistance.domain.Contact;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -14,15 +14,15 @@ public class ContactManager {
 
     private final ContactRepository repository;
 
-    List<Contact> display(){
+    public List<Contact> display(){
         return repository.findAll();
     }
 
-    Contact store(Contact contact){
+    public Contact store(Contact contact){
         return repository.save(contact);
     }
 
-    List<Contact> findMatchingAddresses(String address){
+    public List<Contact> findMatchingAddresses(String address){
         address = "%" + address + "%";
         return repository.findAllByAddressNameLike(address);
     }

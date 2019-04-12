@@ -1,4 +1,4 @@
-package at.nacs.drhousebeds;
+package at.nacs.drhousepharmacy;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

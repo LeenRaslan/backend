@@ -15,7 +15,7 @@ public class PatientsEndpoint {
     private final Apothecary apothecary;
 
     @PostMapping
-    Patient post(@RequestBody Patient patient){
+    Patient post(@RequestBody Patient patient) {
         return apothecary.giveMedicine(patient);
     }
 }

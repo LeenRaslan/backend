@@ -1,0 +1,5 @@
+server:
+  port: 9000
+
+coin:
+  server: http://localhost:9001/coin,http://localhost:9002/coin,http://localhost:9003/coin

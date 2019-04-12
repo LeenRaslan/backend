@@ -15,7 +15,7 @@ class PasswordVerifierTest {
             "rQr, true",
             ",false",
             "wwwwwwww,false",
-            "wwwwwWss1,true"
+            "wwwwwWss1,true",
     })
     void verify(String password, boolean expected) {
         boolean actual = verifier.verify(password);

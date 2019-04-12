@@ -1,0 +1,14 @@
+server:
+  port: 9004
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/patients
+
+dataset:
+  medicines:
+    Pregnant: Vitamins
+    DryEyes: Drops
+    Headache: Panadol
+    IronDeficiency: Folicron

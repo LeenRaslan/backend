@@ -1,10 +1,10 @@
-server:
-  port: 9003
-
-spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost/patients
+#server:
+#  port: 9003
+#
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost/patients
 
 dataset:
   treatments:

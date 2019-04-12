@@ -1,18 +1,19 @@
 package at.nacs.phonebook;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 class ContactManagerTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void display() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void store() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void findMatchingAddresses() {
     }
 }

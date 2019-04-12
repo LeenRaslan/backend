@@ -1,12 +1,12 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.communication;
 
 import at.nacs.drhousediagnoses.domain.Patient;
+import at.nacs.drhousediagnoses.logic.DrHouse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/patients")
@@ -14,14 +14,11 @@ import org.springframework.web.client.RestTemplate;
 
 public class PatientsEndpoint {
 
-    private final RestTemplate restTemplate;
+    private final DrHouse drHouse;
 
     @PostMapping
-    Patient post(@RequestBody Patient patient){
-        patient.setDiagnosis("lupus");
-        restTemplate.postForObject("http://localhost:9003/patients", patient, Patient.class);
-        restTemplate.postForObject("http://localhost:9004/patients", patient, Patient.class);
-        return patient;
+    Patient post(@RequestBody Patient patient) {
+        return drHouse.checkDiagnosis(patient);
     }
 }
 

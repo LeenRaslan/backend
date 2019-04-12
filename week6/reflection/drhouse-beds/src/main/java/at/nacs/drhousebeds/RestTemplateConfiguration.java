@@ -1,4 +1,4 @@
-package at.nacs.drhousediagnoses.logic;
+package at.nacs.drhousebeds;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

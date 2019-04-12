@@ -15,7 +15,7 @@ class ContactsEndpointTest {
     TestRestTemplate restTemplate;
 
     String endpoint = "/contacts";
-    
+
     @Test
     void getContacts() {
     }

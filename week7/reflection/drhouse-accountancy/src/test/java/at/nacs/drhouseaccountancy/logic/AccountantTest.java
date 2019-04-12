@@ -1,10 +1,13 @@
 package at.nacs.drhouseaccountancy.logic;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AccountantTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calculateCosts() {
+
     }
 }

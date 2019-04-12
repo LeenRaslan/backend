@@ -1,6 +1,9 @@
 package at.nacs.drhouseaccountancy;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,17 +12,18 @@ import javax.persistence.Id;
 
 @Entity
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Patient {
-
-    private final PatientDTO dto;
 
     @Id
     @GeneratedValue
-    Long id;
+    private Long id;
 
-    String uuid = dto.getId();
+    private String uuid;
 
     @Column(unique = true)
-    String name;
+    private String name;
 
 }

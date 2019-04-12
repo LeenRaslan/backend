@@ -1,5 +1,6 @@
 package at.nacs.drhousebeds;
 
+import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -9,15 +10,15 @@ import java.util.Map;
 
 @Configuration
 @ConfigurationProperties("dataset")
+public class TreatmentsConfiguration {
 
-public class PatientsConfiguration {
-
+    @Getter
     @Setter
-    private Map<String,String> patients;
+    private Map<String,String> treatments;
 
     @Bean
-    Map<String, String> patients(){
-        return patients;
+    Map<String, String> treatments(){
+        return treatments;
     }
 
 }
