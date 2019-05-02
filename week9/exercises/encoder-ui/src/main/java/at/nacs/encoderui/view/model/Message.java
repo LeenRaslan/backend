@@ -1,12 +1,20 @@
 package at.nacs.encoderui.view.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.validation.constraints.NotEmpty;
 
 @Data
-public class Encoder {
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Message {
 
-    private String ciphertext;
+    @NotEmpty
+    private String text;
 
-    private String plaintext;
 
 }

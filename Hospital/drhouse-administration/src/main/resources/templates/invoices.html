@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Templating</title>
+
+    <meta charset="UTF-8"/>
+
+    <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
+
+</head>
+<body>
+
+<h2>Invoices</h2>
+<table>
+    <tr>
+        <th>Patient</th>
+        <th>Symptom</th>
+        <th>Provided</th>
+        <th>Invoice</th>
+    </tr>
+    <tr th:each="invoice : ${invoices}">
+        <td th:text="${patient.name}">Name</td>
+        <td th:text="${patient.symptom}">Name</td>
+        <td th:text="${provided.name}">Name</td>
+        <td th:text="${patient.name}">Name</td>
+        <td>
+            <form method="post" th:action="@{/invoices/delete}">
+                <input name="name" th:value="${patient.name}" type="hidden"/>
+                <button>Paid</button>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<h2>Add new </h2>
+<form method="post" th:action="@{/invoices}" th:object="${invoice}">
+    <label>Name: </label>
+    <input th:field="*{name}" type="text"/>
+    <p th:errors="*{name}" th:if="${#fields.hasErrors('name')}">Incorrect input</p>
+    <br/>
+    <button type="submit">Add </button>
+</form>
+
+</body>
+</html>

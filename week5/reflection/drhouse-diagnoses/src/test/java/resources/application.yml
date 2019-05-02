@@ -1,8 +1,0 @@
-server:
-  port: 9002
-
-dataset:
-  pharmacy:
-    Pregnant,DryEyes,Headache,IronDeficiency
-  beds:
-    Cancer,Husam,Headache,BrokenLeg

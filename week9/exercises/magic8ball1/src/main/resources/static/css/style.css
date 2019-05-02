@@ -1,5 +1,15 @@
 h1 {
     font-size: 4em;
     text-align: center;
-    color: blueviolet;
+    color: darkgreen;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: darkslategrey;
+}
+p {
+    font-size: 2em;
+    text-align: center;
+    color: darkred;
 }
